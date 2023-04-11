@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: fixed;
+    z-index: 1;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+    height: 70px;
+    background-color: #fe6900;
+    color: white;
+    padding: 1rem;
+
+    /* creditys by TailwindCSS */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+header nav{
+    height: 100%;
+}
+
+header nav img{
+    height: 40px;
+}
+
+main{
+    padding-top: 110px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline  ;
+}
+
+header nav ul li {
+    margin-right: .5rem;
+}
+
+
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.relative{
+    position: relative;
+}
+
+.label{
+    color: white;
+    padding: .3rem .6rem;
+    font-weight: bold;
+}
+
+.label-discount{
+    background-color: #fe0000;
+    margin-right: .25rem;
+}
+
+.label-environment{
+    background-color: #028000;
+}
+
+div.cards{
+    flex-wrap: wrap;
+}
+
+
+div.cards div.card{
+    width: calc( 100% / 3);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    cursor: crosshair;
+}
+
+div.cards div.card img{
+    width: 100%;
+}
+
+img.hover-image{
+    display: none;
+}
+
+div.cards div.card:hover img.hover-image{
+    display: inline-block;
+}
+
+div.cards div.card:hover img.primary-image{
+    display: none;
+}
+
+div.labels{
+    position: absolute;
+    bottom: 120px;
+}
+
+span.price{
+    color: red;
+    font-weight: bold;
+}
+
+div.favourite{
+    position: absolute;
+    top: 5%;
+    right: 4.5%;
+
+    text-align: center;
+    background-color: white;
+    font-size: 1.7rem;
+
+    width: 2rem;
+    height: 2rem;
+}
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 2rem;
+}
+
+
+footer h3{
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+}
+
+footer h4{
+    font-size: 1.15rem;
+    margin-bottom: .6rem;
+}
+
+footer ul li{
+    margin-right: .5rem;
+}
